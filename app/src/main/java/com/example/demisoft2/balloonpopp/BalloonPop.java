@@ -14,6 +14,8 @@ public class BalloonPop extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_balloon_pop);
 
+        getWindow().setBackgroundDrawableResource(R.drawable.modern_background);
+
         mContentView = (ViewGroup) findViewById(R.id.activity_main);
 
         mContentView.setOnClickListener(new View.OnClickListener(){
